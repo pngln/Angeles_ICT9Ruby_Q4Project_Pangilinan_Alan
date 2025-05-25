@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Tasty Rewards - Desserts</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    body {
+      background-image: url('images/dessert-background.jpg');
+      background-size: cover;
+      background-attachment: fixed;
+    }
+    header {
+      color: peach;
+    }
+    .card-title, .section-title {
+      color:palegreen;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-warning sticky-top">
+    <a class="navbar-brand" href="#home">The Tasty Rewards</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="page1.html">Main Portfolio</a></li>
+        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#recipes">Recipes</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home" class="text-center py-5">
+    <header class="py-5">
+      <h1>Welcome to The Tasty Rewards</h1>
+      <p>Discover the sweetest recipes to satisfy your dessert cravings!</p>
+    </header>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active text-center">
+          <img src="C:\Users\GRACE\OneDrive\ドキュメント\Project 2\1.jpg" class="d-block mx-auto w-25" alt="Chocolate Cake" />
+          <div class="carousel-caption">
+            <h5>Chocolate Cake</h5>
+            <p>Chocolate perfection!</p>
+          </div>
+        </div>
+        <div class="carousel-item text-center">
+          <img src="C:\Users\GRACE\OneDrive\Pictures\2.jpg" class="d-block mx-auto w-25" alt="Strawberry Shortcake" />
+          <div class="carousel-caption">
+            <h5>Strawberry Shortcake</h5>
+            <p>Fresh, fruity, and utterly delightful!</p>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </a>
+    </div>
+  </section>
+
+  <!-- Individual Recipe Section -->
+  <section id="recipes" class="py-5">
+    <header class="section-title text-center py-3">
+      <h2>Featured Dessert Recipes</h2>
+    </header>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h3>Chocolate Cake</h3>
+          <img src="C:\Users\GRACE\OneDrive\ドキュメント\Project 2\1.jpg" class="img-fluid rounded d-block mx-auto" alt="Chocolate Cake" />
+          <h4>Ingredients:</h4>
+          <ul>
+            <li>2 cups flour</li>
+            <li>1 cup cocoa powder</li>
+            <li>1 tsp baking soda</li>
+            <li>2 cups sugar</li>
+            <li>3 eggs</li>
+          </ul>
+          <h4>Instructions:</h4>
+          <ol>
+            <li>Preheat oven to 350°F (175°C).</li>
+            <li>Mix dry and wet ingredients separately.</li>
+            <li>Combine and pour into a baking pan.</li>
+            <li>Bake for 30-35 minutes.</li>
+          </ol>
+        </div>
+        <div class="col-md-6">
+          <h3>Strawberry Shortcake</h3>
+          <img src="C:\Users\GRACE\OneDrive\Pictures\2.jpg" class="img-fluid rounded d-block mx-auto" alt="Strawberry Shortcake" />
+          <h4>Ingredients:</h4>
+          <ul>
+            <li>2 cups fresh strawberries</li>
+            <li>1 cup whipped cream</li>
+            <li>1 sponge cake</li>
+            <li>1/2 cup sugar</li>
+          </ul>
+          <h4>Instructions:</h4>
+          <ol>
+            <li>Slice strawberries and mix with sugar.</li>
+            <li>Layer sponge cake, strawberries, and whipped cream.</li>
+            <li>Chill before serving.</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-3 bg-warning">
+    <p>&copy; 2025 The Tasty Rewards - All Rights Reserved.</p>
+  </footer>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
